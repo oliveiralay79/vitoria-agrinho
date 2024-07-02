@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(203, 200, 199);
+}
+header{
+    background-color: rgb(203, 205, 204);
+}
+h1{
+    color: rgb(17, 25, 25);
+}
+h2{
+    color: rgb(68, 70, 66);
+
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#imagem2{
+    display: block;
+    float: left;    /* Faz a imagem flutuar para a esquerda */
+    margin-right: 100px; /* Margem à direita para separar a imagem da lista */
+    width: 20%; /*tamanho da imagem*/
+}
+
+.header {
+    height: 150px; /* Altura desejada para o seu cabeçalho */
+    position: relative; /* Define a posição do elemento pai para permitir posicionamento absoluto do filho (a imagem) */
+}
+
+.header img {
+    width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+    height: 100%; /* Define a altura da imagem como 100% em relação à altura do cabeçalho */
+    position: absolute; /* Posiciona a imagem de forma absoluta dentro do cabeçalho */
+    top: 0; /* Alinha a parte superior da imagem com a parte superior do cabeçalho */
+    left: 0; /* Alinha a parte esquerda da imagem com a parte esquerda do cabeçalho */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir completamente o espaço disponível */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+p{
+    color: rgb(84, 79, 91);
+}
+.titulo1{
+    background: cornsilk;
+}
+.titulo2 {
+    border: 10px solid rgb(209, 48, 128); /* Define uma borda sólida preta de 2 pixels */
+    display: inline-block; /* Para garantir que o contêiner se ajuste ao tamanho da imagem */
+    padding: 5px; /* Espaçamento interno para a borda */
+    width: 50%;
+  }
+  #fruta{
+    width: 50%;
+  }
